@@ -1,0 +1,37 @@
+﻿生成启动时间为 2019/10/28 11:13:27。
+     1>项目“D:\work\FEC_KCP_UNITY\Assets\KCPLib\NativeBuild\Windows\Windows\Windows.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /GL /D NDEBUG /D _WINDOWS /D _USRDLL /D WINDOWS_EXPORTS /D _WINDLL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Release\\" /Fd"x64\Release\vc140.pdb" /Gd /TP /errorReport:prompt ..\..\src\wrap.cpp
+         wrap.cpp
+     1>d:\work\fec_kcp_unity\assets\kcplib\nativebuild\src\fec.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\work\fec_kcp_unity\assets\kcplib\nativebuild\src\reedsolomon.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\work\fec_kcp_unity\assets\kcplib\nativebuild\src\matrix.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\work\fec_kcp_unity\assets\kcplib\nativebuild\src\galois.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\work\fec_kcp_unity\assets\kcplib\nativebuild\src\inversion_tree.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1189,5): warning MSB8012: TargetPath(D:\work\FEC_KCP_UNITY\Assets\KCPLib\NativeBuild\Windows\x64\Release\Windows.dll) does not match the Linker's OutputFile property value (D:\work\FEC_KCP_UNITY\Assets\KCPLib\Plugins\x86_64\kcplib.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1191,5): warning MSB8012: TargetName(Windows) does not match the Linker's OutputFile property value (kcplib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\work\FEC_KCP_UNITY\Assets\KCPLib\NativeBuild\Windows\Windows\\..\..\..\Plugins\x86_64\kcplib.dll" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"D:\work\FEC_KCP_UNITY\Assets\KCPLib\NativeBuild\Windows\x64\Release\Windows.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG:incremental /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\work\FEC_KCP_UNITY\Assets\KCPLib\NativeBuild\Windows\x64\Release\Windows.lib" /MACHINE:X64 /DLL x64\Release\fec.obj
+         x64\Release\galois.obj
+         x64\Release\galois_noasm.obj
+         x64\Release\galois_table.obj
+         x64\Release\ikcp.obj
+         x64\Release\inversion_tree.obj
+         x64\Release\matrix.obj
+         x64\Release\reedsolomon.obj
+         x64\Release\sess.obj
+         x64\Release\wrap.obj
+         x64\Release\dllmain.obj
+         x64\Release\forwindows.obj
+         x64\Release\stdafx.obj
+         x64\Release\Windows.obj
+           正在创建库 D:\work\FEC_KCP_UNITY\Assets\KCPLib\NativeBuild\Windows\x64\Release\Windows.lib 和对象 D:\work\FEC_KCP_UNITY\Assets\KCPLib\NativeBuild\Windows\x64\Release\Windows.exp
+         正在生成代码
+         All 902 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+         已完成代码的生成
+         Windows.vcxproj -> D:\work\FEC_KCP_UNITY\Assets\KCPLib\NativeBuild\Windows\x64\Release\Windows.dll
+     1>已完成生成项目“D:\work\FEC_KCP_UNITY\Assets\KCPLib\NativeBuild\Windows\Windows\Windows.vcxproj”(Build 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:02.58

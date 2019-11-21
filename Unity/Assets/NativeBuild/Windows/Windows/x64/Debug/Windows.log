@@ -1,0 +1,96 @@
+﻿生成启动时间为 2019/10/22 11:21:52。
+     1>项目“D:\work\FEC_KCP_UNITY\Assets\KCPLib\NativeBuild\Windows\Windows\Windows.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /ZI /nologo /W3 /WX- /Od /D _DEBUG /D _WINDOWS /D _USRDLL /D WINDOWS_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Debug\\" /Fd"x64\Debug\vc140.pdb" /Gd /TP /errorReport:prompt ..\..\src\fec.cpp ..\..\src\galois.cpp ..\..\src\galois_noasm.cpp ..\..\src\inversion_tree.cpp ..\..\src\matrix.cpp ..\..\src\reedsolomon.cpp ..\..\src\sess.cpp ..\..\src\wrap.cpp forwindows.cpp stdafx.cpp Windows.cpp
+         Windows.cpp
+         stdafx.cpp
+         forwindows.cpp
+     1>d:\work\fec_kcp_unity\assets\kcplib\nativebuild\windows\windows\forwindows.cpp(18): warning C4244: “=”: 从“time_t”转换到“long”，可能丢失数据
+         wrap.cpp
+     1>d:\work\fec_kcp_unity\assets\kcplib\nativebuild\src\fec.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\work\fec_kcp_unity\assets\kcplib\nativebuild\src\reedsolomon.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\work\fec_kcp_unity\assets\kcplib\nativebuild\src\matrix.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\work\fec_kcp_unity\assets\kcplib\nativebuild\src\galois.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\work\fec_kcp_unity\assets\kcplib\nativebuild\src\inversion_tree.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         sess.cpp
+     1>d:\work\fec_kcp_unity\assets\kcplib\nativebuild\src\fec.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\work\fec_kcp_unity\assets\kcplib\nativebuild\src\reedsolomon.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\work\fec_kcp_unity\assets\kcplib\nativebuild\src\matrix.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\work\fec_kcp_unity\assets\kcplib\nativebuild\src\galois.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\work\fec_kcp_unity\assets\kcplib\nativebuild\src\inversion_tree.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\work\fec_kcp_unity\assets\kcplib\nativebuild\src\encoding.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\work\fec_kcp_unity\assets\kcplib\nativebuild\src\sess.cpp(29): warning C4244: “初始化”: 从“SOCKET”转换到“int”，可能丢失数据
+     1>d:\work\fec_kcp_unity\assets\kcplib\nativebuild\src\sess.cpp(54): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\work\fec_kcp_unity\assets\kcplib\nativebuild\src\sess.cpp(73): warning C4244: “初始化”: 从“SOCKET”转换到“int”，可能丢失数据
+     1>d:\work\fec_kcp_unity\assets\kcplib\nativebuild\src\sess.cpp(134): warning C4267: “参数”: 从“size_t”转换到“long”，可能丢失数据
+     1>d:\work\fec_kcp_unity\assets\kcplib\nativebuild\src\sess.cpp(199): warning C4267: “return”: 从“size_t”转换到“long”，可能丢失数据
+     1>d:\work\fec_kcp_unity\assets\kcplib\nativebuild\src\sess.cpp(214): warning C4267: “return”: 从“size_t”转换到“long”，可能丢失数据
+     1>d:\work\fec_kcp_unity\assets\kcplib\nativebuild\src\sess.cpp(222): warning C4267: “return”: 从“size_t”转换到“long”，可能丢失数据
+     1>d:\work\fec_kcp_unity\assets\kcplib\nativebuild\src\sess.cpp(288): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+         reedsolomon.cpp
+     1>d:\work\fec_kcp_unity\assets\kcplib\nativebuild\src\reedsolomon.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\work\fec_kcp_unity\assets\kcplib\nativebuild\src\reedsolomon.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\work\fec_kcp_unity\assets\kcplib\nativebuild\src\matrix.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\work\fec_kcp_unity\assets\kcplib\nativebuild\src\galois.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\work\fec_kcp_unity\assets\kcplib\nativebuild\src\inversion_tree.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\work\fec_kcp_unity\assets\kcplib\nativebuild\src\galois_noasm.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\work\fec_kcp_unity\assets\kcplib\nativebuild\src\reedsolomon.cpp(239): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+         matrix.cpp
+     1>d:\work\fec_kcp_unity\assets\kcplib\nativebuild\src\matrix.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\work\fec_kcp_unity\assets\kcplib\nativebuild\src\galois.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\work\fec_kcp_unity\assets\kcplib\nativebuild\src\matrix.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         inversion_tree.cpp
+     1>d:\work\fec_kcp_unity\assets\kcplib\nativebuild\src\inversion_tree.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\work\fec_kcp_unity\assets\kcplib\nativebuild\src\inversion_tree.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\work\fec_kcp_unity\assets\kcplib\nativebuild\src\matrix.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\work\fec_kcp_unity\assets\kcplib\nativebuild\src\galois.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         galois_noasm.cpp
+     1>d:\work\fec_kcp_unity\assets\kcplib\nativebuild\src\galois_noasm.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\work\fec_kcp_unity\assets\kcplib\nativebuild\src\galois_noasm.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\work\fec_kcp_unity\assets\kcplib\nativebuild\src\galois.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\work\fec_kcp_unity\assets\kcplib\nativebuild\src\matrix.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         galois.cpp
+     1>d:\work\fec_kcp_unity\assets\kcplib\nativebuild\src\galois.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\work\fec_kcp_unity\assets\kcplib\nativebuild\src\galois.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         fec.cpp
+     1>d:\work\fec_kcp_unity\assets\kcplib\nativebuild\src\fec.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\work\fec_kcp_unity\assets\kcplib\nativebuild\src\fec.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\work\fec_kcp_unity\assets\kcplib\nativebuild\src\reedsolomon.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\work\fec_kcp_unity\assets\kcplib\nativebuild\src\matrix.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\work\fec_kcp_unity\assets\kcplib\nativebuild\src\galois.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\work\fec_kcp_unity\assets\kcplib\nativebuild\src\inversion_tree.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\work\fec_kcp_unity\assets\kcplib\nativebuild\src\encoding.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\work\fec_kcp_unity\assets\kcplib\nativebuild\src\fec.cpp(95): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>d:\work\fec_kcp_unity\assets\kcplib\nativebuild\src\fec.cpp(118): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+         正在生成代码...
+         D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /ZI /nologo /W3 /WX- /Od /D _DEBUG /D _WINDOWS /D _USRDLL /D WINDOWS_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Debug\\" /Fd"x64\Debug\vc140.pdb" /Gd /TC /errorReport:prompt ..\..\src\galois_table.c ..\..\src\ikcp.c
+         ikcp.c
+     1>d:\work\fec_kcp_unity\assets\kcplib\nativebuild\src\ikcp.c(657): warning C4267: “=”: 从“size_t”转换到“IUINT32”，可能丢失数据
+         galois_table.c
+     1>d:\work\fec_kcp_unity\assets\kcplib\nativebuild\src\galois_table.c : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\work\fec_kcp_unity\assets\kcplib\nativebuild\src\galois.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         正在生成代码...
+         D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /ZI /nologo /W3 /WX- /Od /D _DEBUG /D _WINDOWS /D _USRDLL /D WINDOWS_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Debug\\" /Fd"x64\Debug\vc140.pdb" /Gd /TP /errorReport:prompt dllmain.cpp
+         dllmain.cpp
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\work\FEC_KCP_UNITY\Assets\KCPLib\NativeBuild\Windows\x64\Debug\Windows.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"D:\work\FEC_KCP_UNITY\Assets\KCPLib\NativeBuild\Windows\x64\Debug\Windows.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\work\FEC_KCP_UNITY\Assets\KCPLib\NativeBuild\Windows\x64\Debug\Windows.lib" /MACHINE:X64 /DLL x64\Debug\fec.obj
+         x64\Debug\galois.obj
+         x64\Debug\galois_noasm.obj
+         x64\Debug\galois_table.obj
+         x64\Debug\ikcp.obj
+         x64\Debug\inversion_tree.obj
+         x64\Debug\matrix.obj
+         x64\Debug\reedsolomon.obj
+         x64\Debug\sess.obj
+         x64\Debug\wrap.obj
+         x64\Debug\dllmain.obj
+         x64\Debug\forwindows.obj
+         x64\Debug\stdafx.obj
+         x64\Debug\Windows.obj
+           正在创建库 D:\work\FEC_KCP_UNITY\Assets\KCPLib\NativeBuild\Windows\x64\Debug\Windows.lib 和对象 D:\work\FEC_KCP_UNITY\Assets\KCPLib\NativeBuild\Windows\x64\Debug\Windows.exp
+         Windows.vcxproj -> D:\work\FEC_KCP_UNITY\Assets\KCPLib\NativeBuild\Windows\x64\Debug\Windows.dll
+     1>已完成生成项目“D:\work\FEC_KCP_UNITY\Assets\KCPLib\NativeBuild\Windows\Windows\Windows.vcxproj”(Build 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:08.68

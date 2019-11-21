@@ -1,0 +1,95 @@
+﻿生成启动时间为 2019/10/21 20:16:19。
+     1>项目“D:\work\KCPLib\Assets\KCPLib\NativeBuild\Windows\Windows\Windows.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D WINDOWS_EXPORTS /D _WINDLL /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\src\fec.cpp ..\..\src\galois.cpp ..\..\src\galois_noasm.cpp ..\..\src\inversion_tree.cpp ..\..\src\matrix.cpp ..\..\src\reedsolomon.cpp ..\..\src\sess.cpp ..\..\src\wrap.cpp forwindows.cpp stdafx.cpp Windows.cpp
+         Windows.cpp
+         stdafx.cpp
+         forwindows.cpp
+     1>d:\work\kcplib\assets\kcplib\nativebuild\windows\windows\forwindows.cpp(18): warning C4244: “=”: 从“time_t”转换到“long”，可能丢失数据
+         wrap.cpp
+     1>d:\work\kcplib\assets\kcplib\nativebuild\src\fec.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\work\kcplib\assets\kcplib\nativebuild\src\reedsolomon.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\work\kcplib\assets\kcplib\nativebuild\src\matrix.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\work\kcplib\assets\kcplib\nativebuild\src\galois.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\work\kcplib\assets\kcplib\nativebuild\src\inversion_tree.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         sess.cpp
+     1>d:\work\kcplib\assets\kcplib\nativebuild\src\fec.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\work\kcplib\assets\kcplib\nativebuild\src\reedsolomon.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\work\kcplib\assets\kcplib\nativebuild\src\matrix.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\work\kcplib\assets\kcplib\nativebuild\src\galois.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\work\kcplib\assets\kcplib\nativebuild\src\inversion_tree.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\work\kcplib\assets\kcplib\nativebuild\src\encoding.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\work\kcplib\assets\kcplib\nativebuild\src\sess.cpp(207): warning C4018: “<=”: 有符号/无符号不匹配
+         reedsolomon.cpp
+     1>d:\work\kcplib\assets\kcplib\nativebuild\src\reedsolomon.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\work\kcplib\assets\kcplib\nativebuild\src\reedsolomon.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\work\kcplib\assets\kcplib\nativebuild\src\matrix.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\work\kcplib\assets\kcplib\nativebuild\src\galois.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\work\kcplib\assets\kcplib\nativebuild\src\inversion_tree.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\work\kcplib\assets\kcplib\nativebuild\src\galois_noasm.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\work\kcplib\assets\kcplib\nativebuild\src\reedsolomon.cpp(155): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\work\kcplib\assets\kcplib\nativebuild\src\reedsolomon.cpp(223): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\work\kcplib\assets\kcplib\nativebuild\src\reedsolomon.cpp(237): warning C4018: “<”: 有符号/无符号不匹配
+         matrix.cpp
+     1>d:\work\kcplib\assets\kcplib\nativebuild\src\matrix.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\work\kcplib\assets\kcplib\nativebuild\src\galois.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\work\kcplib\assets\kcplib\nativebuild\src\matrix.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         inversion_tree.cpp
+     1>d:\work\kcplib\assets\kcplib\nativebuild\src\inversion_tree.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\work\kcplib\assets\kcplib\nativebuild\src\inversion_tree.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\work\kcplib\assets\kcplib\nativebuild\src\matrix.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\work\kcplib\assets\kcplib\nativebuild\src\galois.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         galois_noasm.cpp
+     1>d:\work\kcplib\assets\kcplib\nativebuild\src\galois_noasm.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\work\kcplib\assets\kcplib\nativebuild\src\galois_noasm.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\work\kcplib\assets\kcplib\nativebuild\src\galois.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\work\kcplib\assets\kcplib\nativebuild\src\matrix.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\work\kcplib\assets\kcplib\nativebuild\src\galois_noasm.cpp(16): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\work\kcplib\assets\kcplib\nativebuild\src\galois_noasm.cpp(22): warning C4018: “<”: 有符号/无符号不匹配
+         galois.cpp
+     1>d:\work\kcplib\assets\kcplib\nativebuild\src\galois.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\work\kcplib\assets\kcplib\nativebuild\src\galois.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         fec.cpp
+     1>d:\work\kcplib\assets\kcplib\nativebuild\src\fec.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\work\kcplib\assets\kcplib\nativebuild\src\fec.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\work\kcplib\assets\kcplib\nativebuild\src\reedsolomon.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\work\kcplib\assets\kcplib\nativebuild\src\matrix.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\work\kcplib\assets\kcplib\nativebuild\src\galois.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\work\kcplib\assets\kcplib\nativebuild\src\inversion_tree.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\work\kcplib\assets\kcplib\nativebuild\src\encoding.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\work\kcplib\assets\kcplib\nativebuild\src\fec.cpp(117): warning C4018: “>=”: 有符号/无符号不匹配
+     1>d:\work\kcplib\assets\kcplib\nativebuild\src\fec.cpp(154): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\work\kcplib\assets\kcplib\nativebuild\src\fec.cpp(172): warning C4018: “>”: 有符号/无符号不匹配
+         正在生成代码...
+         D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D WINDOWS_EXPORTS /D _WINDLL /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\src\galois_table.c ..\..\src\ikcp.c
+         ikcp.c
+         galois_table.c
+     1>d:\work\kcplib\assets\kcplib\nativebuild\src\galois_table.c : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\work\kcplib\assets\kcplib\nativebuild\src\galois.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         正在生成代码...
+         D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D WINDOWS_EXPORTS /D _WINDLL /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt dllmain.cpp
+         dllmain.cpp
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1189,5): warning MSB8012: TargetPath(D:\work\KCPLib\Assets\KCPLib\NativeBuild\Windows\Debug\Windows.dll) does not match the Linker's OutputFile property value (D:\work\KCPLib\Assets\KCPLib\NativeBuild\Plugins\x86\kcplib.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1191,5): warning MSB8012: TargetName(Windows) does not match the Linker's OutputFile property value (kcplib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".vcxproj\..\..\..\Plugins\x86\kcplib.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"D:\work\KCPLib\Assets\KCPLib\NativeBuild\Windows\Debug\Windows.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\work\KCPLib\Assets\KCPLib\NativeBuild\Windows\Debug\Windows.lib" /MACHINE:X86 /DLL Debug\fec.obj
+         Debug\galois.obj
+         Debug\galois_noasm.obj
+         Debug\galois_table.obj
+         Debug\ikcp.obj
+         Debug\inversion_tree.obj
+         Debug\matrix.obj
+         Debug\reedsolomon.obj
+         Debug\sess.obj
+         Debug\wrap.obj
+         Debug\dllmain.obj
+         Debug\forwindows.obj
+         Debug\stdafx.obj
+         Debug\Windows.obj
+           正在创建库 D:\work\KCPLib\Assets\KCPLib\NativeBuild\Windows\Debug\Windows.lib 和对象 D:\work\KCPLib\Assets\KCPLib\NativeBuild\Windows\Debug\Windows.exp
+         Windows.vcxproj -> D:\work\KCPLib\Assets\KCPLib\NativeBuild\Windows\Debug\Windows.dll
+     1>已完成生成项目“D:\work\KCPLib\Assets\KCPLib\NativeBuild\Windows\Windows\Windows.vcxproj”(Rebuild 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:07.46

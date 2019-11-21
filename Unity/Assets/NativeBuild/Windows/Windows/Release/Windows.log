@@ -1,0 +1,29 @@
+﻿生成启动时间为 2019/10/28 11:06:06。
+     1>项目“D:\work\FEC_KCP_UNITY\Assets\KCPLib\NativeBuild\Windows\Windows\Windows.vcxproj”在节点 2 上(Build 个目标)。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1189,5): warning MSB8012: TargetPath(D:\work\FEC_KCP_UNITY\Assets\KCPLib\NativeBuild\Windows\Release\Windows.dll) does not match the Linker's OutputFile property value (D:\work\FEC_KCP_UNITY\Assets\KCPLib\Plugins\x86\kcplib.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1191,5): warning MSB8012: TargetName(Windows) does not match the Linker's OutputFile property value (kcplib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\work\FEC_KCP_UNITY\Assets\KCPLib\NativeBuild\Windows\Windows\\..\..\..\Plugins\x86\kcplib.dll" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"D:\work\FEC_KCP_UNITY\Assets\KCPLib\NativeBuild\Windows\Release\Windows.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG:incremental /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\work\FEC_KCP_UNITY\Assets\KCPLib\NativeBuild\Windows\Release\Windows.lib" /MACHINE:X86 /SAFESEH /DLL Release\fec.obj
+         Release\galois.obj
+         Release\galois_noasm.obj
+         Release\galois_table.obj
+         Release\ikcp.obj
+         Release\inversion_tree.obj
+         Release\matrix.obj
+         Release\reedsolomon.obj
+         Release\sess.obj
+         Release\wrap.obj
+         Release\dllmain.obj
+         Release\forwindows.obj
+         Release\stdafx.obj
+         Release\Windows.obj
+           正在创建库 D:\work\FEC_KCP_UNITY\Assets\KCPLib\NativeBuild\Windows\Release\Windows.lib 和对象 D:\work\FEC_KCP_UNITY\Assets\KCPLib\NativeBuild\Windows\Release\Windows.exp
+         正在生成代码
+         All 902 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+         已完成代码的生成
+         Windows.vcxproj -> D:\work\FEC_KCP_UNITY\Assets\KCPLib\NativeBuild\Windows\Release\Windows.dll
+     1>已完成生成项目“D:\work\FEC_KCP_UNITY\Assets\KCPLib\NativeBuild\Windows\Windows\Windows.vcxproj”(Build 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:01.26

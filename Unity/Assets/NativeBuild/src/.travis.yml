@@ -1,0 +1,7 @@
+sudo: false
+language: cpp
+compiler:
+  - clang
+script:
+    - cmake .
+    - make
